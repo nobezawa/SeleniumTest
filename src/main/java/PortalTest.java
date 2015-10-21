@@ -4,9 +4,9 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * Created by nobezawa on 2015/05/28.
+ * Created by nobezawa on 15/10/21.
  */
-public class WebTest extends TestCase {
+public class PortalTest extends TestCase {
 
     private final static String url = "http://r.gnavi.co.jp/area/aream2115/";
 
@@ -17,7 +17,4 @@ public class WebTest extends TestCase {
         assertTrue(driver.getTitle().contains("新宿"));
         driver.quit();
     }
-
-
-
 }
